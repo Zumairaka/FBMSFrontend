@@ -44,10 +44,6 @@ export class ShowbookingsComponent implements OnInit {
     }
   }
 
-  cancel() {
-    this.router.navigate(['showBookings']);
-  }
-
   deleteBooking(uname, date, time) {
     this.serviceObject.deleteBooking(uname, date, time).subscribe((data) => {
       this.status = JSON.parse(JSON.stringify(data)).Status;
