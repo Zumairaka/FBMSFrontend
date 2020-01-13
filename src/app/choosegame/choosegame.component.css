@@ -1,0 +1,41 @@
+body,
+html {
+  height: 1300px;
+}
+.bg{
+    /* The image used */
+    background-image: url("../../assets/Images/background.jpg");
+    /* Full height */
+    height: 1300px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+}
+.name{
+    color: rgb(4, 4, 95);
+    padding-bottom: 8%;
+}
+#content{
+    height: 30%;
+    width: 55%;
+}
+#box{
+    padding: 7%;
+}
+label{
+    padding: 3%;
+    color: white;
+    font-weight: bolder;
+    margin-top: 3%
+}
+span{
+    color: white;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+.book {
+    margin-right: 7%;
+}

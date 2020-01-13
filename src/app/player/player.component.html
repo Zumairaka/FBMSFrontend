@@ -1,0 +1,51 @@
+<div class="bg col-sm-4 col-md-6 col-lg-8 col-xl-12">
+  <div class="transparent">
+    <div class="d-flex justify-content-center name">
+      <h4>Welcome {{name}}</h4>
+    </div>
+    <div class="d-flex justify-content-center logout">
+      <div>
+        <button class=" btn btn-link font-weight-bolder colour" (click)="editAccount(name)">Edit_Account</button>
+      </div>
+      <div>
+        <button class=" btn btn-link font-weight-bolder colour" (click)="showMyBookings(name)">Booking_History</button>
+      </div>
+      <div>
+        <button class=" btn btn-link font-weight-bolder colour" (click)="logout()">Logout</button>
+      </div>
+    </div>
+
+<!--Available Table-->
+  <div class=" d-flex justify-content-center main">
+    <div class="table-responsive available-table">
+      <table class="table-dark table col-md-12">
+        <thead>
+          <tr>
+            <th colspan="4" class="text-center text-success table-heading">The Ground Status Today</th>
+          </tr>
+          <tr>
+            <th >Time</th>
+            <th >Ground 1</th>                    
+            <th >Ground 2</th>
+            <th >Ground 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngIf = "flag">{{message}}</tr>
+          <tr *ngFor = "let entry of bookingData">
+            <td >{{entry.time}}</td>
+            <td ><input type="checkbox" class="custom-checkbox" [checked]="entry.ground1" ></td>
+            <td ><input type="checkbox" class="custom-checkbox" [checked]="entry.ground2" ></td>
+            <td ><input type="checkbox" class="custom-checkbox" [checked]="entry.ground3" ></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="choose">
+    <button class="btn btn-success font-weight-bolder" (click)="chooseMyGame()">Choose Your Game</button>
+  </div>
+      
+  </div>
+</div>
+  

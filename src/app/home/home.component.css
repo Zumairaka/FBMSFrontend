@@ -1,0 +1,45 @@
+body,
+html {
+  height: auto;
+}
+.bg{
+    /* The image used */
+    background-image: url("../../assets/Images/background.jpg");
+    /* Full height */
+    height: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slick-slider {  
+  width: 90%; 
+  margin: auto;  
+}
+.scroll {
+  height: 25%;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.849);
+}
+#h3 {
+  margin-top: 8%;
+  margin-bottom: 2%;
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#content{
+  padding-top: 2%;
+  height: 29%;
+  width: 40%;
+  margin-top: 10%;
+
+}
+#login{
+  padding: 7%;
+}
+.dark{
+  background-color: rgba(0, 0, 0, 0.849);
+}
+pre {
+  color: white;
+}

@@ -1,0 +1,35 @@
+body,
+html {
+  height: 1300px;
+}
+.bg{
+    /* The image used */
+    background-image: url("../../assets/Images/background.jpg");
+    /* Full height */
+    height: 1300px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content{
+    height: 35%;
+    width: 50%;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 5%;
+}
+#button{
+    padding: 4%;
+    margin: 4%;
+    width: 250px;
+}
+.logout {
+    color: black;
+    font-size: medium;
+    margin-bottom: 6%;
+}
+h3 {
+color: rgb(4, 4, 95);
+}

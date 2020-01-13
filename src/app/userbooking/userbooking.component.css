@@ -1,0 +1,36 @@
+body,
+html {
+  height: auto;
+}
+.bg{
+    /* The image used */
+    background-image: url("../../assets/Images/background.jpg");
+    /* Full height */
+    height: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15%;
+}
+
+.logout {
+  margin-bottom: 8%;
+  color: rgb(4, 4, 95);
+}
+.main {
+  width: 85%;
+  margin-left:8%;
+}
+.table-heading {
+  font-weight : bolder;
+  font-size: large;
+}
+.details {
+  margin-right: 5%;
+}
+h5 {
+  font-size: xx-large;
+  color: darkgreen;
+  margin-bottom: 5%;
+}
